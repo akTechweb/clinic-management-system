@@ -128,11 +128,11 @@ CORS_ALLOW_CREDENTIALS = True
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/Kolkata'   # ✅ changed
+TIME_ZONE = 'Asia/Kolkata'   #  changed
 
 USE_I18N = True
 
-USE_TZ = True   # ✅ keep this as it is
+USE_TZ = True   #  keep this as it is
 
 
 # Static files (CSS, JavaScript, Images)

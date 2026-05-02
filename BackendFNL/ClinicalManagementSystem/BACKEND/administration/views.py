@@ -102,11 +102,3 @@ from doctor.models import Doctor
 from rest_framework.decorators import api_view, permission_classes
 
 
-# @api_view(['GET'])
-# @permission_classes([IsAuthenticated])
-# def admin_dashboard(request):
-#     return Response({
-#         "total_doctors": Doctor.objects.count(),
-#         "total_staff": Staff.objects.count(),
-#         "total_departments": Department.objects.count(),
-#     })

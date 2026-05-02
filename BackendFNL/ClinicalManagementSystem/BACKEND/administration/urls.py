@@ -39,9 +39,3 @@ urlpatterns = [
         # Include all router URLs
 ]
 
-# from .views import admin_dashboard
-
-# urlpatterns = [
-#     # ... your existing urls ...
-#     path('dashboard/', admin_dashboard, name='admin-dashboard'),
-# ]

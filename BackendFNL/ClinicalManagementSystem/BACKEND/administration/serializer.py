@@ -103,7 +103,7 @@ class DepartmentSerializer(serializers.ModelSerializer):
         model = Department
         fields ='__all__'
     
-    # ✅ Field-level validation for dept_code
+    #  Field-level validation for dept_code
     def validate_dept_code(self, value):
         """
         Ensure department code:
@@ -124,7 +124,7 @@ class DepartmentSerializer(serializers.ModelSerializer):
 
         return value.upper()  # Optional: auto convert to uppercase
 
-    # ✅ Field-level validation for dept_name
+    #  Field-level validation for dept_name
     def validate_dept_name(self, value):
         """
         Ensure department name:
@@ -155,7 +155,7 @@ class StaffSerializer(serializers.ModelSerializer):
     user = serializers.PrimaryKeyRelatedField(read_only=True)
     
     # ----------------------------
-    # USER INPUT (WRITE ONLY) ✅ IMPORTANT
+    # USER INPUT (WRITE ONLY)  IMPORTANT
     # ----------------------------
     username = serializers.CharField(write_only=True)
     password = serializers.CharField(write_only=True)
