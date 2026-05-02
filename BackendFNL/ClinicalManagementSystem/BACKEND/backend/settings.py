@@ -41,9 +41,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'authentication',
     'administration',
-    'doctor',
-    'labtechnician',
-    'pharmacist',
      'reception',
     'corsheaders'
 ]
