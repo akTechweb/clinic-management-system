@@ -1,0 +1,34 @@
+# Virtual environment
+venv/
+
+myvenv/
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+# backend cache
+backend\__pycache__
+# Django migrations
+migrations/
+# Django database (local only)
+db.sqlite3
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local command notes
+commands.txt
+
+# Static/media generated files
+media/
+staticfiles/
+
+__pycache__/
+*.pyc
