@@ -159,6 +159,3 @@ npm run dev
 
 ---
 
-## 📌 Author
-
-Developed as a full-stack project to strengthen skills in backend development, REST API integration, database management, and enterprise application workflows.
